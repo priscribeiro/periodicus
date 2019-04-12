@@ -1,5 +1,4 @@
 import React from 'react'
-import { elements } from './elements'
 
 const Card = props => {
   return (

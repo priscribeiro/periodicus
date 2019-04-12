@@ -5,6 +5,7 @@ const CardList = ({ elements }) => {
   const cardComponent = elements.map((el, i) => {
     return (
       <Card
+        key={i}
         id={elements[i].id}
         name={elements[i].name}
         symbol={elements[i].symbol}

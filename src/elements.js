@@ -58,5 +58,15 @@ export const elements = [
     weight: '12.01u',
     form: 'Sólido',
     presence: 'Encontrado em toda crosta terrestre.'
+  },
+  {
+    id: 7,
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/9/98/Nitrogen_discharge_tube.jpg',
+    name: 'Nitrogênio',
+    symbol: 'N',
+    weight: '14.00u',
+    form: 'Gás',
+    presence: 'Encontrado em toda crosta terrestre.'
   }
 ]

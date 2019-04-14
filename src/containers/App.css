@@ -9,6 +9,14 @@ h1 {
 
 .searchbox {
   outline: none;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.footer-style {
+  padding-top: 20em;
+  padding-bottom: 5em;
+  background-color: #1a1a1d;
 }
 
 h2,
@@ -17,17 +25,17 @@ h4,
 h5,
 h6 {
   font-family: 'Nunito Sans', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 0.1em;
 }
 p {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: #29292d;
   cursor: pointer;
-}
+} */
 
 hr {
   color: #29292d;

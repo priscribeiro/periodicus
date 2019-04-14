@@ -6,7 +6,7 @@ const SearchBox = ({ searchfield, searchChange }) => {
       <input
         className="br2 pa3 ba  bg-white ph6"
         type="search"
-        placeholder="Insira o elemento..."
+        placeholder="Digite o elemento"
         onChange={searchChange}
       />
     </div>

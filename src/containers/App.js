@@ -2,6 +2,7 @@ import React from 'react'
 import CardList from '../components/CardList'
 import { elements } from '../elements'
 import SearchBox from '../components/SearchBox'
+import './App.css'
 
 class App extends React.Component {
   constructor() {
@@ -25,7 +26,9 @@ class App extends React.Component {
     })
     return (
       <div className="tc">
-        <h1>Periodicus</h1>
+        <h1 className="f-subheadline lh-solid pa2">
+          <span className="white">Periodicus</span>
+        </h1>
         <SearchBox searchChange={this.onSearchChange} />
         <CardList elements={filteredElements} />
       </div>

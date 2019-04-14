@@ -8,6 +8,7 @@ export const elements = [
     weight: '1.00u',
     form: 'Gás',
     presence: 'Encontrado no ar.'
+    // link: 'https://google.com'
   },
   {
     id: 2,
@@ -22,11 +23,40 @@ export const elements = [
   {
     id: 3,
     image:
-      'https://upload.wikimedia.org/wikipedia/commons/a/ae/Lithium_paraffin.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/4/4d/Battery-lithium-cr2032.jpg',
     name: 'Lítio',
     symbol: 'Li',
     weight: '6.94u',
-    form: 'Gás',
+    form: 'Sólido',
     presence: 'Não se encontra em seu estado nativo.'
+  },
+  {
+    id: 4,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Be-140g.jpg',
+    name: 'Berílio',
+    symbol: 'Be',
+    weight: '9.01u',
+    form: 'Sólido',
+    presence: 'Encontrado na esmeralda.'
+  },
+  {
+    id: 5,
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/1/1d/Boron_99.7_percent.jpg',
+    name: 'Boro',
+    symbol: 'B',
+    weight: '10.81u',
+    form: 'Sólido',
+    presence: 'Encontrado na espalação de raios cósmicos.'
+  },
+  {
+    id: 6,
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/4/4d/SiC_p1390066.jpg',
+    name: 'Carbono',
+    symbol: 'C',
+    weight: '12.01u',
+    form: 'Sólido',
+    presence: 'Encontrado em toda crosta terrestre.'
   }
 ]

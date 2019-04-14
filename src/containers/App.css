@@ -1,0 +1,39 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 30px;
+  font-weight: 700;
+}
+
+.searchbox {
+  outline: none;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 3px;
+}
+p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #29292d;
+  cursor: pointer;
+}
+
+hr {
+  color: #29292d;
+}
+
+.white {
+  color: #fff;
+  /* text-shadow: -5px 0 0 #950740, -8px 0 0 rgba(32, 35, 36, 0.3); */
+}

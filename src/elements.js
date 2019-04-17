@@ -68,5 +68,25 @@ export const elements = [
     weight: '14.00u',
     form: 'Gás',
     presence: 'Encontrado em toda crosta terrestre.'
+  },
+  {
+    id: 8,
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/6/61/Cat%27s_Eye_Nebula_-_GPN-2000-000955.jpg',
+    name: 'Oxigênio',
+    symbol: 'O',
+    weight: '15.99u',
+    form: 'Gás',
+    presence: 'Terceiro elemento mais abundante no universo.'
+  },
+  {
+    id: 9,
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/3/3c/Fluorite-270246.jpg',
+    name: 'Fluor',
+    symbol: 'F',
+    weight: '18.99u',
+    form: 'Gás',
+    presence: 'Encontrado no mineral Fluorita.'
   }
 ]

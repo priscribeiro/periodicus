@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const Card = props => {
   return (
@@ -12,7 +12,7 @@ const Card = props => {
       />
       <div>
         <h2>{props.name}</h2>
-        <hr class="mw3 bb bw1 b--black-10" />
+        <hr className="mw3 bb bw1 b--black-10" />
         <h3>{props.symbol}</h3>
         <h4>{props.form}</h4>
         <h3>{props.weight}</h3>
